@@ -1,6 +1,6 @@
 customenchatsss
 
-uh sponsered my piggycustomenchants i guess
+uh sponsered by piggycustomenchants i guess
 
 If you want to create an enchanted book, use the /ce enchant command on a normal book. Afterwards, you place the item you want to enchant on top of the enchanted book. It will then enchant your item.
 
