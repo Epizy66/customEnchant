@@ -50,6 +50,7 @@ use DaPigGuy\PiggyCustomEnchants\enchants\tools\hoe\FarmerEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\hoe\FertilizerEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\hoe\HarvestEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\pickaxe\JackpotEnchant;
+use DaPigGuy\PiggyCustomEnchants\enchants\tools\pickaxe\StriphammerEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\QuickeningEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\SmeltingEnchant;
 use DaPigGuy\PiggyCustomEnchants\enchants\tools\TelepathyEnchant;
@@ -142,7 +143,6 @@ class CustomEnchantManager
         self::registerEnchantment(new BountyHunterEnchant($plugin, CustomEnchantIds::BOUNTYHUNTER));
         self::registerEnchantment(new CactusEnchant($plugin, CustomEnchantIds::CACTUS));
         self::registerEnchantment(new ChickenEnchant($plugin, CustomEnchantIds::CHICKEN));
-        self::registerEnchantment(new CloakingEnchant($plugin, CustomEnchantIds::CLOAKING));
         self::registerEnchantment(new DeathbringerEnchant($plugin, CustomEnchantIds::DEATHBRINGER));
         self::registerEnchantment(new DeepWoundsEnchant($plugin, CustomEnchantIds::DEEPWOUNDS));
         self::registerEnchantment(new DisarmingEnchant($plugin, CustomEnchantIds::DISARMING));
@@ -155,7 +155,6 @@ class CustomEnchantManager
         self::registerEnchantment(new FarmerEnchant($plugin, CustomEnchantIds::FARMER));
         self::registerEnchantment(new FertilizerEnchant($plugin, CustomEnchantIds::FERTILIZER));
         self::registerEnchantment(new FocusedEnchant($plugin, CustomEnchantIds::FOCUSED));
-        self::registerEnchantment(new ForcefieldEnchant($plugin, CustomEnchantIds::FORCEFIELD));
         self::registerEnchantment(new GooeyEnchant($plugin, CustomEnchantIds::GOOEY));
         self::registerEnchantment(new GrapplingEnchant($plugin, CustomEnchantIds::GRAPPLING));
         self::registerEnchantment(new GrowEnchant($plugin, CustomEnchantIds::GROW));
@@ -171,6 +170,7 @@ class CustomEnchantManager
         self::registerEnchantment(new LightningEnchant($plugin, CustomEnchantIds::LIGHTNING));
         self::registerEnchantment(new LuckyCharmEnchant($plugin, CustomEnchantIds::LUCKYCHARM));
         self::registerEnchantment(new LumberjackEnchant($plugin, CustomEnchantIds::LUMBERJACK));
+        self::registerEnchantment(new StriphammerEnchant($plugin, CustomEnchantIds::STRIPHAMMER));
         self::registerEnchantment(new MagmaWalkerEnchant($plugin, CustomEnchantIds::MAGMAWALKER));
         self::registerEnchantment(new MeditationEnchant($plugin, CustomEnchantIds::MEDITATION));
         self::registerEnchantment(new MissileEnchant($plugin, CustomEnchantIds::MISSILE));
@@ -180,7 +180,6 @@ class CustomEnchantManager
         self::registerEnchantment(new ParachuteEnchant($plugin, CustomEnchantIds::PARACHUTE));
         self::registerEnchantment(new ParalyzeEnchant($plugin, CustomEnchantIds::PARALYZE));
         self::registerEnchantment(new PiercingEnchant($plugin, CustomEnchantIds::PIERCING));
-        self::registerEnchantment(new PoisonousCloudEnchant($plugin, CustomEnchantIds::POISONOUSCLOUD));
         self::registerEnchantment(new ProwlEnchant($plugin, CustomEnchantIds::PROWL));
         self::registerEnchantment(new QuickeningEnchant($plugin, CustomEnchantIds::QUICKENING));
         self::registerEnchantment(new RadarEnchant($plugin, CustomEnchantIds::RADAR));
