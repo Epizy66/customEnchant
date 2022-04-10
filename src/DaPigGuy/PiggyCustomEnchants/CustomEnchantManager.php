@@ -83,7 +83,7 @@ use DaPigGuy\PiggyCustomEnchants\entities\HomingArrow;
 use DaPigGuy\PiggyCustomEnchants\entities\PiggyFireball;
 use DaPigGuy\PiggyCustomEnchants\entities\PiggyWitherSkull;
 use DaPigGuy\PiggyCustomEnchants\entities\PigProjectile;
-use DaPigGuy\PiggyCustomEnchants\enchants\CustomEnchant,
+use DaPigGuy\PiggyCustomEnchants\enchants\CustomEnchant;
 use pocketmine\data\bedrock\EnchantmentIdMap;
 use pocketmine\entity\effect\VanillaEffects;
 use pocketmine\entity\Living;
