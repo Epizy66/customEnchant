@@ -45,7 +45,7 @@ class LumberjackEnchant extends RecursiveEnchant
     {
         if ($event instanceof BlockBreakEvent) {
             $block = $event->getBlock();
-                if ($block->getId() == ORES) {
+                if ($block->getId() == SELF::ORES) {
                     $this->breakTree($block, $player);
                 }
         }
@@ -59,7 +59,7 @@ class LumberjackEnchant extends RecursiveEnchant
                 break;
             }
             $side = $block->getSide($i);
-            if ($side->getId() !== ORES && $side->getId() !== ORES) {
+            if ($side->getId() !== SELF::ORES && $side->getId() !== SELF::ORES) {
                 continue;
             }
             $player->getWorld()->useBreakOn($side->getPosition(), $item, $player);
