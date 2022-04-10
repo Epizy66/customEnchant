@@ -38,7 +38,7 @@ class LumberjackEnchant extends RecursiveEnchant
 
     public function getDefaultExtraData(): array
     {
-        return ["limit" => 10];
+        return ["limit" => 15];
     }
 
     public function safeReact(Player $player, Item $item, Inventory $inventory, int $slot, Event $event, int $level, int $stack): void
