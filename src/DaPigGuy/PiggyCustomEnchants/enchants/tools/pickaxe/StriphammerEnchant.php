@@ -46,7 +46,7 @@ class StripHammer extends RecursiveEnchant
         if ($event instanceof BlockBreakEvent) {
             $block = $event->getBlock();
                 if ($block->getId() == SELF::ORES) {
-                    $this->breakTree($block, $player);
+                    $this->Hammer($block, $player);
                 }
         }
     }
