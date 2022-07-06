@@ -14,7 +14,7 @@ use pocketmine\inventory\Inventory;
 use pocketmine\item\Item;
 use pocketmine\player\Player;
 
-class LumberjackEnchant extends RecursiveEnchant
+class StripHammer extends RecursiveEnchant
 {
     public string $name = "StripHammer";
     public int $maxLevel = 1;
